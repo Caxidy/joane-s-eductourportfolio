@@ -6,15 +6,15 @@ import { useRef } from "react"
 import Image from "next/image"
 
 const learningImages = [
-  "/learning-1.jpg",
-  "/learning-2.jpg",
-  "/learning-3.jpg",
-  "/learning-4.jpg",
-  "/learning-5.jpg",
-  "/learning-6.jpg",
-  "/learning-7.jpg",
-  "/learning-8.jpg",
-  "/learning-9.jpg",
+  "/J1.jpg",
+  "/J2.jpg",
+  "/J3.jpg",
+  "/J4.jpg",
+  "/J5.jpg",
+  "/J6.jpg",
+  "/J7.jpg",
+  "/J8.jpg",
+  "/J9.jpg",
 ]
 
 export default function Learnings() {
@@ -33,10 +33,10 @@ export default function Learnings() {
           <div className="mb-16">
             <div className="flex items-center gap-4 mb-4">
               <div className="h-px flex-1 bg-accent-cyan/30" />
-              <h2 className="text-sm uppercase tracking-wider text-accent-cyan font-semibold">Key Takeaways</h2>
+              <h2 className="text-sm uppercase tracking-wider text-accent-cyan font-semibold">Learning Experiences</h2>
               <div className="h-px flex-1 bg-accent-cyan/30" />
             </div>
-            <h3 className="text-4xl md:text-5xl font-bold text-center text-balance mb-4">Learning Experiences</h3>
+            <h3 className="text-4xl md:text-5xl font-bold text-center text-balance mb-4">WATT JOURNAL</h3>
             <p className="text-center text-muted-foreground text-lg max-w-3xl mx-auto">
               Visual highlights from our educational journey
             </p>

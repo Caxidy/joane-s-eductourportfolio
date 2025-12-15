@@ -34,7 +34,7 @@ export default function Hero() {
             className="text-5xl md:text-7xl font-bold mb-4 text-balance"
           >
             <span className="bg-gradient-to-r from-foreground via-accent-cyan to-foreground bg-clip-text text-transparent">
-              Educational Tour Portfolio
+              Educational Tour 2025
             </span>
           </motion.h1>
 
@@ -45,7 +45,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="text-xl md:text-2xl text-muted-foreground mb-6 text-balance"
           >
-            Documenting Our Learning Journey and Experiences
+            Documenting My Learning Journey and Experiences
           </motion.p>
 
           {/* Scroll indicator */}

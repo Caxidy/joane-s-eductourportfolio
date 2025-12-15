@@ -132,3 +132,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+#next-logo {
+  display: none !important;
+}
+

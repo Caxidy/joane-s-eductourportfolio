@@ -7,49 +7,50 @@ import { useRef } from "react"
 const itineraryData = [
   {
     day: "Day 1",
-    date: "March 15, 2025",
-    location: "Tech Innovation Hub",
-    image: "/modern-tech-innovation-hub-with-ai-displays-and-in.jpg",
+    date: "November 19, 2025",
+    image: "/airport2.jpg",
     activities: [
-      "Welcome orientation and facility tour",
-      "Keynote presentation on AI and Machine Learning",
-      "Interactive workshop on emerging technologies",
+      "Welcome to CEBU",
+      "Visit a company: WORLDTECH INFORMATION SOLUTION,INC",
     ],
-    description: "Introduction to cutting-edge technology research and development practices.",
+    description: "Introduction to advanced technology and development practices.",
   },
   {
     day: "Day 2",
-    date: "March 16, 2025",
-    location: "Leading Software Company",
-    image: "/modern-software-company-office-with-collaborative-.jpg",
+    date: "November 20, 2025",
+    image: "/church2.jpg",
     activities: [
-      "Corporate culture presentation",
-      "Software development lifecycle demonstration",
-      "Networking session with engineers",
+      "Visit a company: CODECHUM",
+      "Visit a church at Basilica Minore del Santo Niño de Cebu",
+      "Visit a company: RIVAN IT CEBU",
     ],
-    description: "Insights into agile development and collaborative software engineering.",
+    description: "Insights into agile development, collaborative programmers, networking training centers and higher education opportunities.",
   },
   {
     day: "Day 3",
-    date: "March 17, 2025",
-    location: "University Research Lab",
-    image: "/university-research-laboratory-with-advanced-equip.jpg",
+    date: "November 21, 2025",
+    image: "/mata.jpg",
     activities: [
-      "Tour of advanced research facilities",
-      "Presentation on current research projects",
-      "Discussion with graduate students and faculty",
+      "Visit a company: MATA TECHNOLOGIES, INC.",
+      "Goodbye Cebu",
+      "Welcome to Bohol",
     ],
-    description: "Exploration of academic research and higher education opportunities.",
+    description: "Exploration of new technologies.",
   },
   {
     day: "Day 4",
-    date: "March 18, 2025",
-    location: "Startup Incubator",
-    image: "/vibrant-startup-incubator-space-with-entrepreneurs.jpg",
+    date: "November 22, 2025",
+    image: "/tarsier2.jpg",
     activities: [
-      "Introduction to entrepreneurship ecosystem",
-      "Pitch presentations from startup founders",
-      "Workshop on innovation and product development",
+      "Visit a company: T.A.R.S.I.E.R. 117",
+      "Lunch at Loboc River",
+      "Take a pictures at BACLAYON CHURCHCHOCOLATE HILLS",
+      "Watch a tarsier at BOHOL TARSIER CONSERVATION AREA",
+      "Take a pictures at TARSI MAN-MADE FOREST",
+      "Take a pictures at MIRROR OF THE WORLD",
+      "Goodbye Bohol",
+      "Hello Manila",
+      "Good to be back in Davao",
     ],
     description: "Understanding the startup culture and entrepreneurial mindset.",
   },
@@ -77,7 +78,7 @@ export default function Itinerary() {
             </div>
             <h3 className="text-4xl md:text-5xl font-bold text-center text-balance mb-4">Tour Itinerary</h3>
             <p className="text-center text-muted-foreground text-lg">
-              A day-by-day breakdown of our educational journey
+              A day-by-day breakdown of my educational journey
             </p>
           </div>
 
@@ -106,7 +107,6 @@ export default function Itinerary() {
                       <div className="relative h-48 md:h-56 overflow-hidden">
                         <img
                           src={item.image || "/placeholder.svg"}
-                          alt={`${item.location} - ${item.day}`}
                           className="w-full h-full object-cover"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-card/90 to-transparent" />
@@ -119,7 +119,6 @@ export default function Itinerary() {
                             <p className="text-sm text-muted-foreground">{item.date}</p>
                           </div>
                           <div className="px-3 py-1 bg-accent-cyan/10 border border-accent-cyan/30 rounded-full text-sm text-accent-cyan">
-                            {item.location}
                           </div>
                         </div>
 

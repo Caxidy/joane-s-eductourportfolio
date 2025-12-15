@@ -24,7 +24,7 @@ export default function Profile() {
               <h2 className="text-sm uppercase tracking-wider text-accent-cyan font-semibold">Student Profile</h2>
               <div className="h-px flex-1 bg-accent-cyan/30" />
             </div>
-            <h3 className="text-4xl md:text-5xl font-bold text-center text-balance">About the Student</h3>
+            <h3 className="text-4xl md:text-5xl font-bold text-center text-balance">About Me</h3>
           </div>
 
           {/* Profile Content */}
@@ -38,13 +38,13 @@ export default function Profile() {
             >
               <div className="relative w-48 h-48 mb-4">
                 <img
-                  src="/professional-student-portrait.png"
+                  src="/profile.jpg"
                   alt="Student Profile"
                   className="rounded-full w-full h-full object-cover border-2 border-accent-cyan/50"
                 />
               </div>
-              <h4 className="text-xl font-bold text-foreground mb-1">Your Name</h4>
-              <p className="text-muted-foreground text-sm">Computer Science Student</p>
+              <h4 className="text-xl font-bold text-foreground mb-1">Joane T. Morales</h4>
+              <p className="text-muted-foreground text-sm">BSIT Student</p>
             </motion.div>
 
             {/* Profile Details */}
@@ -59,11 +59,11 @@ export default function Profile() {
                 <div className="space-y-3 text-sm">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Course:</span>
-                    <span className="font-semibold text-foreground">BS Computer Science</span>
+                    <span className="font-semibold text-foreground">BS Information Technology</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">School:</span>
-                    <span className="font-semibold text-foreground">University Name</span>
+                    <span className="font-semibold text-foreground">Holy Cross of Davao College</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Year Level:</span>
@@ -71,7 +71,7 @@ export default function Profile() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Academic Year:</span>
-                    <span className="font-semibold text-foreground">2024-2025</span>
+                    <span className="font-semibold text-foreground">2025-2026</span>
                   </div>
                 </div>
               </div>
@@ -79,7 +79,7 @@ export default function Profile() {
               <div className="bg-card border border-accent-cyan/20 rounded-lg p-6">
                 <h4 className="text-lg font-semibold mb-4 text-accent-cyan">About Me</h4>
                 <p className="text-muted-foreground leading-relaxed text-sm">
-                  A passionate computer science student with a keen interest in emerging technologies, software
+                  A passionate IT student with a keen interest in emerging technologies, software
                   development, and innovation. This educational tour provided invaluable insights into the tech industry
                   and reinforced my commitment to pursuing a career in technology.
                 </p>
@@ -89,19 +89,10 @@ export default function Profile() {
                 <h4 className="text-lg font-semibold mb-4 text-accent-cyan">Interests & Skills</h4>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-3 py-1 bg-accent-cyan/10 border border-accent-cyan/30 rounded-full text-xs text-accent-cyan">
-                    Web Development
-                  </span>
-                  <span className="px-3 py-1 bg-accent-cyan/10 border border-accent-cyan/30 rounded-full text-xs text-accent-cyan">
                     Artificial Intelligence
                   </span>
                   <span className="px-3 py-1 bg-accent-cyan/10 border border-accent-cyan/30 rounded-full text-xs text-accent-cyan">
-                    Data Science
-                  </span>
-                  <span className="px-3 py-1 bg-accent-cyan/10 border border-accent-cyan/30 rounded-full text-xs text-accent-cyan">
-                    Mobile Apps
-                  </span>
-                  <span className="px-3 py-1 bg-accent-cyan/10 border border-accent-cyan/30 rounded-full text-xs text-accent-cyan">
-                    Cloud Computing
+                    Data Analyst
                   </span>
                 </div>
               </div>

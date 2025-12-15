@@ -42,15 +42,15 @@ export default function Contact() {
               <div className="space-y-3 text-sm">
                 <div>
                   <p className="text-muted-foreground mb-1">School</p>
-                  <p className="font-semibold text-foreground">University Name</p>
+                  <p className="font-semibold text-foreground">Holy Cross Davao College</p>
                 </div>
                 <div>
                   <p className="text-muted-foreground mb-1">Course & Section</p>
-                  <p className="font-semibold text-foreground">BS Computer Science - Section A</p>
+                  <p className="font-semibold text-foreground">BS Information Technology - Section A</p>
                 </div>
                 <div>
                   <p className="text-muted-foreground mb-1">Academic Year</p>
-                  <p className="font-semibold text-foreground">2024-2025</p>
+                  <p className="font-semibold text-foreground">2025-2026</p>
                 </div>
               </div>
             </motion.div>
@@ -61,19 +61,11 @@ export default function Contact() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="bg-card border border-accent-cyan/20 rounded-lg p-6"
             >
-              <h4 className="text-lg font-semibold mb-4 text-accent-cyan">Tour Coordination</h4>
+              <h4 className="text-lg font-semibold mb-4 text-accent-cyan">Email Inquiry</h4>
               <div className="space-y-3 text-sm">
                 <div>
-                  <p className="text-muted-foreground mb-1">Tour Coordinator</p>
-                  <p className="font-semibold text-foreground">Prof. John Doe</p>
-                </div>
-                <div>
-                  <p className="text-muted-foreground mb-1">Department</p>
-                  <p className="font-semibold text-foreground">Computer Science Department</p>
-                </div>
-                <div>
-                  <p className="text-muted-foreground mb-1">Contact Email</p>
-                  <p className="font-semibold text-foreground">coordinator@university.edu</p>
+                  <p className="text-muted-foreground mb-1">Email Address</p>
+                  <p className="font-semibold text-foreground">joane.morales@hcdc.edu.ph</p>
                 </div>
               </div>
             </motion.div>
@@ -87,7 +79,7 @@ export default function Contact() {
             className="mt-16 text-center"
           >
             <div className="h-px bg-accent-cyan/30 mb-8" />
-            <p className="text-sm text-muted-foreground mb-2">Educational Tour Portfolio 2024-2025</p>
+            <p className="text-sm text-muted-foreground mb-2">Educational Tour Portfolio 2025-2026</p>
             <p className="text-xs text-muted-foreground">Created with dedication and passion for learning</p>
           </motion.div>
         </motion.div>

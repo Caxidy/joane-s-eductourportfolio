@@ -7,22 +7,22 @@ import { useRef } from "react"
 const certificates = [
   {
     title: "Educational Tour Completion Certificate",
-    issuer: "University Name",
-    date: "March 2025",
-    image: "/professional-certificate-completion-educational-to.jpg",
+    issuer: "WATT",
+    date: "November 2025",
+    image: "/watt_cert.jpg",
   },
   {
-    title: "Technology Workshop Participation",
-    issuer: "Tech Innovation Hub",
-    date: "March 2025",
-    image: "/workshop-certificate-technology-learning.jpg",
+    title: "Codechum Certificate",
+    issuer: "Codechum",
+    date: "May 2025",
+    image: "/cc_cert.png",
   },
   {
-    title: "Professional Development Seminar",
-    issuer: "Leading Software Company",
-    date: "March 2025",
-    image: "/professional-development-certificate-seminar.jpg",
-  },
+    title: "Cisco Certificate",
+    issuer: "Cisco Networking Academy",
+    date: "Dec 2025",
+    image: "/cisco_cert.png",
+  }
 ]
 
 export default function Certificates() {
@@ -46,7 +46,7 @@ export default function Certificates() {
             </div>
             <h3 className="text-4xl md:text-5xl font-bold text-center text-balance mb-4">Certificates</h3>
             <p className="text-center text-muted-foreground text-lg">
-              Recognitions earned during our educational journey
+              Recognitions earned 
             </p>
           </div>
 

@@ -52,7 +52,7 @@ export default function About() {
               <h4 className="text-xl font-semibold mb-3 text-accent-cyan">Purpose</h4>
               <p className="text-muted-foreground leading-relaxed">
                 To expose students to cutting-edge technologies, foster professional networking, and provide practical
-                insights into career opportunities in the field of computer science and technology. This tour aimed to
+                insights into career opportunities in the field of technology. This tour aimed to
                 inspire and inform our future career paths.
               </p>
             </motion.div>
@@ -66,15 +66,14 @@ export default function About() {
               <h4 className="text-xl font-semibold mb-3 text-accent-cyan">Dates & Locations</h4>
               <div className="space-y-2 text-muted-foreground">
                 <p>
-                  <span className="font-semibold text-foreground">Duration:</span> March 15-22, 2025
+                  <span className="font-semibold text-foreground">Duration:</span> November 19-22, 2025
                 </p>
                 <p>
                   <span className="font-semibold text-foreground">Locations:</span>
                 </p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
-                  <li>Silicon Valley, California</li>
-                  <li>San Francisco Bay Area</li>
-                  <li>Innovation Districts</li>
+                  <li>Cebu</li>
+                  <li>Bohol</li>
                 </ul>
               </div>
             </motion.div>
@@ -93,7 +92,7 @@ export default function About() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent-cyan mt-1">•</span>
-                  <span>Network with professionals and alumni</span>
+                  <span>Network with professionals</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent-cyan mt-1">•</span>
