@@ -37,7 +37,7 @@ export default function Header() {
             onClick={() => scrollToSection("hero")}
             className="text-xl md:text-2xl font-bold bg-gradient-to-r from-accent-cyan to-foreground bg-clip-text text-transparent hover:opacity-80 transition-opacity"
           >
-            Portfolio
+            Joaniee
           </button>
 
           {/* Navigation */}
